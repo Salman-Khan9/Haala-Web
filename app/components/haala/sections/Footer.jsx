@@ -9,7 +9,7 @@ export function Footer() {
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "44px 24px 28px", display: "flex", gap: 36, flexWrap: "wrap" }}>
         <div style={{ flex: 1, minWidth: "min(100%,240px)" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ width: 30, height: 30, borderRadius: 9, background: "#FF5A1F", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", font: "800 15px/1 " + FAM }}>H</div>
+            <img src="/images/logo.png" alt="Haala" width={30} height={30} style={{ borderRadius: 9 }} />
             <div style={{ font: "800 17px/1 " + FAM, color: "#fff" }}>HAALA</div>
           </div>
           <div style={{ font: "500 12px/1.65 " + fam, color: "rgba(255,255,255,.6)", marginTop: 13, maxWidth: 250, textWrap: "pretty" }}>{EN.footerTag}</div>

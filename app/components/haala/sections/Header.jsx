@@ -8,7 +8,7 @@ export function Header() {
     <div style={{ position: "sticky", top: 0, zIndex: 20, background: "rgba(255,255,255,.92)", backdropFilter: "blur(12px)", borderBottom: "1px solid #F1EBE4" }}>
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "14px 24px", display: "flex", alignItems: "center", gap: 16 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <div style={{ width: 32, height: 32, borderRadius: 10, background: "#FF5A1F", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", font: "800 16px/1 " + FAM }}>H</div>
+          <img src="/images/logo.png" alt="Haala" width={32} height={32} style={{ borderRadius: 10 }} />
           <div style={{ font: "800 19px/1 " + FAM, color: "#191410", letterSpacing: "-.01em" }}>HAALA</div>
         </div>
         <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 26, flexWrap: "wrap" }}>
